@@ -49,22 +49,46 @@
 		.container button:hover {
 			background-color: #2218838;
 			}
+		.navbar {
+			background-color: #333;
+            		overflow: hidden;
+			position: fixed;
+			top: 0;
+        		}
+        	.navbar a {
+            		float: left;
+            		display: block;
+            		color: #f2f2f2;
+            		text-align: center;
+            		padding: 14px 16px;
+            		text-decoration: none;
+            		font-size: 17px;
+        		}
+        	.navbar a:hover {
+            		background-color: #ddd;
+            		color: black;
+        		}
 	</style>
 
 </head>
 <body>
-<nav>
+<div class="navbar">
+
 		<a href="Inicio.html">Inicio</a></li>
 		<a href="Conocernos.html">Conocernos</a>
 		<a href="Productos.html">Productos</a>
 		<a href="Registro.html">Registro</a>
 		<a href="Contacto.html">Contacto</a>
-</nav>
+</div>
 
 	<div class="container">
 		<h1>Registrate en este sitio</h1>
 		<form>
 		<input type="text" name="username" placeholder="Nombre de usuario" required><br><br>
-		<input type="email" name="email" placeholder="Correo electrónico" required><br><br>		
+		<input type="email" name="email" placeholder="Correo electrónico" required><br><br>
+		<p>Se te enviara una confirmación del registro por correo electrónico.</p>
+		<button type"submit">Registrarse</button>
+		</form>
+	</div>		
 </body>
 </html>
