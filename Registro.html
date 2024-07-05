@@ -4,8 +4,67 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> Registro </title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+			background-color: #f0f0f0;
+			}
+		.container {
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: o o 10px rgba(0, 0, 0, 0.1);
+			width: 300px;
+			text-align: center;
+			}
+		.container h1 {
+			font-size: 24px;
+			margin-bottom: 20px;
+			}
+		.container input {
+			width: calc(100% - 22px);
+			padding: 10px;
+			margin: 10px 0;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-sizing: border-box;
+			}
+		.container p {
+			font-size: 14px;
+			color: #555;
+			}
+		.container button {
+			backgrond-color: #28a745;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+			}
+		.container button:hover {
+			background-color: #2218838;
+			}
+	</style>
+
 </head>
 <body>
+<nav>
+		<a href="Inicio.html">Inicio</a></li>
+		<a href="Conocernos.html">Conocernos</a>
+		<a href="Productos.html">Productos</a>
+		<a href="Registro.html">Registro</a>
+		<a href="Contacto.html">Contacto</a>
+</nav>
 
+	<div class="container">
+		<h1>Registrate en este sitio</h1>
+		<form>
+		<input type="text" name="username" placeholder="Nombre de usuario" required><br><br>
+		<input type="email" name="email" placeholder="Correo electrónico" required><br><br>		
 </body>
 </html>
